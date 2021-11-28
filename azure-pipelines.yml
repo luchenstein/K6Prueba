@@ -1,9 +1,0 @@
-# azure-pipelines.yml
-
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-  - task: CacheBeta@1
-    inputs:
-      filename: 'script.js'
