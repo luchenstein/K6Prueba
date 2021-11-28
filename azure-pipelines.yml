@@ -4,6 +4,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - task: k6-load-test@0
+  - task: CacheBeta@1
     inputs:
       filename: 'script.js'
