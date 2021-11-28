@@ -1,9 +1,0 @@
-# azure-pipelines.yml
-
-pool:
-  vmImage: 'ubuntu-latest'
-
-steps:
-  - task: PublishTestResults@2
-    inputs:
-      filename: 'script.js'
